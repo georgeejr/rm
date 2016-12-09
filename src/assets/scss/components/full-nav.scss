@@ -1,0 +1,38 @@
+
+.full-nav{ 
+    position: absolute; 
+    left: 0;
+    right: 0;
+    top:0;
+    height: 100%;
+    background: rgba(16, 25, 34, 0.9);
+    transform:translate(9999px);
+    opacity: 0;
+    z-index: 1;
+    &.nav-open{ 
+        transition: opacity .5s ease-in-out;
+        transform:translate(0);
+        opacity: 1;
+    }
+    .row{
+        margin:0 auto;
+    }
+    ul{
+        margin-top:126px;
+        li{
+            text-align: center;
+            margin-bottom: 40px;
+            a{
+                color:#fff;
+                font-weight: 100;
+                font-size: 50px;
+                line-height: 1;
+            }
+        }
+    }
+    .request-demo{
+        float: none;
+        font-size: 50px;
+        padding: 18px 36px;
+    }
+}

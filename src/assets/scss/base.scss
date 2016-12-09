@@ -1,0 +1,57 @@
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+// background
+$bgcolor-1: #3F505D;
+$bgcolor-2: #27343F;
+$bgcolor-3: #6F7C86;
+$bgcolor-4: #CFD3D6;
+$bgcolor-5: #F8F8F8;
+.section-1 {
+    background: $bgcolor-1;
+}
+
+//body
+body{
+    overflow: hidden;
+}
+.relative {
+    position: relative;
+}
+
+// button
+.b-radius {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.button-1 {
+    border-color:#0FAC84;
+    color:#0FAC84;
+    background-color: transparent;
+    &:hover { 
+        background-color: rgba(255, 255, 255, 0.1);
+        color:#0FAC84;
+    }
+    &:focus{
+        background-color: transparent;
+        color:#0FAC84;
+    }
+}
+
+
+// list
+ul{
+    margin:0;
+     li{
+        list-style: none;
+    }
+}
+
+
+// typog
+h1,h2,h3,h4,h5,h6{font-weight: 100;}
+h6 {
+    font-size: 30px;
+}
