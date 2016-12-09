@@ -11,13 +11,15 @@ $bgcolor-5: #F8F8F8;
 .section-1 {
     background: $bgcolor-1;
 }
-
+.section-2 {
+    background: $bgcolor-2;
+}
 //body
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .relative {
-    position: relative;
+    position: relative; 
 }
 
 // button
